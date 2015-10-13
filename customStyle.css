@@ -1,0 +1,46 @@
+#character {
+    position:absolute;
+    width:40px;
+    height:40px;
+    left:50px;	
+    background-color: #F00;
+}
+
+#ground {
+    position:absolute;
+    width : 300px;
+    height : 60px;
+    left :0px;
+    top:200px;
+    background-color : #A66;
+}
+
+.cloud {
+    width: 150px;
+    position:fixed;
+    animation: moveCloud 6s linear infinite;
+}
+@keyframes moveCloud {
+    0%   {left: 1300px;}
+    100% {left:-100px;}
+}
+
+.cloud1 {
+    width: 120px;
+    position:fixed;
+    animation: moveCloud2 6s linear 1s infinite;
+}
+@keyframes moveCloud2 {
+    0%   {left: 1300px;}
+    100% {left:0px;}
+}
+
+.cloud3 {
+    width: 150px;
+    position:fixed;
+    animation: moveCloud3 6s linear 3s infinite;
+}
+@keyframes moveCloud3 {
+    0%   {left: 1300px;}
+    100% {left:0px;}
+}
